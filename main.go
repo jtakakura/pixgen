@@ -17,16 +17,16 @@ import (
 type InputData map[string][][]string
 
 var charToColor = map[rune]color.RGBA{
-	'.': {0, 0, 0, 0},       // transparent
-	'l': {0, 0, 0, 255},     // black
-	'r': {255, 0, 0, 255},   // red
-	'g': {0, 255, 0, 255},   // green
-	'b': {0, 0, 255, 255},   // blue
-	'y': {255, 255, 0, 255}, // yellow
-	'p': {128, 0, 128, 255}, // purple
-	'c': {0, 255, 255, 255}, // cyan
+	'.': {0, 0, 0, 0},         // transparent
+	'l': {0, 0, 0, 255},       // black
+	'r': {255, 0, 0, 255},     // red
+	'g': {0, 255, 0, 255},     // green
+	'b': {0, 0, 255, 255},     // blue
+	'y': {255, 255, 0, 255},   // yellow
+	'p': {128, 0, 128, 255},   // purple
+	'c': {0, 255, 255, 255},   // cyan
 	'w': {255, 255, 255, 255}, // white
-	'L': {85, 85, 85, 255},  // light_black
+	'L': {85, 85, 85, 255},    // light_black
 	'R': {255, 128, 128, 255}, // light_red
 	'G': {128, 255, 128, 255}, // light_green
 	'B': {128, 128, 255, 255}, // light_blue
